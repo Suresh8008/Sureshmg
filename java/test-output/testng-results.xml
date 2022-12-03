@@ -1,21 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-17T12:55:32 IST" name="Default suite" finished-at="2022-11-17T12:55:38 IST" duration-ms="6625">
+  <suite started-at="2022-11-21T22:03:54 IST" name="Default suite" finished-at="2022-11-21T22:04:33 IST" duration-ms="39569">
     <groups>
     </groups>
-    <test started-at="2022-11-17T12:55:32 IST" name="Default test" finished-at="2022-11-17T12:55:38 IST" duration-ms="6625">
-      <class name="ExelFile.FBlogin">
-        <test-method signature="launch()[pri:0, instance:ExelFile.FBlogin@34b7ac2f]" started-at="2022-11-17T12:55:32 IST" name="launch" finished-at="2022-11-17T12:55:33 IST" duration-ms="1418" status="PASS">
+    <test started-at="2022-11-21T22:03:54 IST" name="Default test" finished-at="2022-11-21T22:04:33 IST" duration-ms="39569">
+      <class name="Sikuli.downloadFiles">
+        <test-method is-config="true" signature="open()[pri:0, instance:Sikuli.downloadFiles@243c4f91]" started-at="2022-11-21T22:03:54 IST" name="open" finished-at="2022-11-21T22:04:20 IST" duration-ms="26779" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="login()[pri:0, instance:ExelFile.FBlogin@34b7ac2f]" started-at="2022-11-17T12:55:33 IST" name="login" finished-at="2022-11-17T12:55:38 IST" duration-ms="5174" status="PASS">
+        </test-method> <!-- open -->
+        <test-method signature="windowElement()[pri:0, instance:Sikuli.downloadFiles@243c4f91]" started-at="2022-11-21T22:04:20 IST" name="windowElement" finished-at="2022-11-21T22:04:33 IST" duration-ms="12760" status="FAIL">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[C:/Users/sures/OneDrive/Pictures/save.png: (89x27) in S(0)[0,0 1536x864] E:Y, T:3.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: C:/Users/sures/OneDrive/Pictures/save.png: (89x27) in S(0)[0,0 1536x864] E:Y, T:3.0
+  Line 2761, in file Region.java
+
+at org.sikuli.script.Region.wait(Region.java:2761)
+at org.sikuli.script.Region.find(Region.java:2326)
+at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
+at org.sikuli.script.Region.click(Region.java:3718)
+at org.sikuli.script.Region.click(Region.java:3703)
+at Sikuli.downloadFiles.windowElement(downloadFiles.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- ExelFile.FBlogin -->
+        </test-method> <!-- windowElement -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Sikuli.downloadFiles@243c4f91]" started-at="2022-11-21T22:04:33 IST" name="close" finished-at="2022-11-21T22:04:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Sikuli.downloadFiles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

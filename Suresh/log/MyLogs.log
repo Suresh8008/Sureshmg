@@ -1,0 +1,5 @@
+[INFO ] 2022-11-18 14:45:33.761 [main] log4jHRM - Testcase execution started
+[INFO ] 2022-11-18 14:45:35.192 [main] log4jHRM - Browser opened successfully
+[INFO ] 2022-11-18 14:45:41.331 [main] log4jHRM - page opened Successfully
+[INFO ] 2022-11-18 14:45:47.553 [main] log4jHRM - login successfully
+[INFO ] 2022-11-18 14:46:03.901 [main] log4jHRM - driver close

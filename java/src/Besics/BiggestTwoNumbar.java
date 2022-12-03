@@ -17,6 +17,9 @@ public class BiggestTwoNumbar {
 		System.out.println(numbar2 + " is biggest numbar");
 			
 		
+		
+		
+		
 	}
 
 }

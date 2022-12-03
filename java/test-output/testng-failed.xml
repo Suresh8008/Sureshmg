@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ExelFile.FBlogin">
+      <class name="Sikuli.downloadFiles">
         <methods>
-          <include name="login"/>
+          <include name="windowElement"/>
+          <include name="close"/>
+          <include name="open"/>
         </methods>
-      </class> <!-- ExelFile.FBlogin -->
+      </class> <!-- Sikuli.downloadFiles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
